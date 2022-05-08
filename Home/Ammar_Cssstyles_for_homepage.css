@@ -56,6 +56,12 @@ ul{
 a{
     text-decoration: none;
 }
+.sidemenu{
+    display:none;
+}
+.sidebar:hover >.sidemenu{
+    display:block;
+}
 .clear{
     clear:both;
 }
