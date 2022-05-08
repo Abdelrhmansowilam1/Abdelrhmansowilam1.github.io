@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <title> login </title>
+    <meta charset="UTF-8">
+     <meta name="Description" content="movies loginpage"> 
+     <link rel="stylesheet" href="login.css">
+</head>
+<body>
+<form class="box"action="login html"method="POST" onsubmit="return validate()">
+    <p id="error"></p>
+<h1>
+    login
+</h1>
+<input class="user" type="text" name="" placeholder="enter username" id="user">
+<div class="grp">
+<div class="right"><div class="fofuser" style="font-family: Wingdings;">ü</div> </div>
+<div class="wrong"><div class="fofuser" style="font-family: Wingdings;">û</div> </div>
+</div>
+<input class="pass"  type="password" name="" placeholder="enter the Password " id="pass"> 
+<div class="grp">
+<div class="righ"><div class="fofpass" style="font-family: Wingdings;">ü</div> </div>
+<div class="wron"><div class="fofpass" style="font-family: Wingdings;">û</div> </div>
+</div>
+<input type="submit" class="sub" name="" value="login"> 
+<a href="#" class="formlink">Donot have an account? signup</a>
+</form>
+<script src="main.js"></script>
+</body>

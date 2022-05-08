@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <title>  movies news </title>
+    <meta charset="UTF-8">
+     <meta name="Description" content="movies NEWS PAGE"> 
+     <link rel="stylesheet" href="news.css">
+</head>
+<body>
+    <div class="container">
+    <header>
+        <div class="navigationcontainer">
+            <div class="listing-header">
+                    <h1 class="name">MOVIES NEWS</h1>
+                    <p class="desc">The latest movie news on the movies you're most interested in seeing</p>
+            </div>
+            <h2 class="section-title">Latest</h2>
+        </div>
+    </header>
+    <div class="main">
+        <div class="home">
+            <div class="left">
+                <h1 class="head1">Oscar Isaac's Spider-Man 2099 Won't Make Jokes</h1>
+                <img src="https://static2.srcdn.com/wordpress/wp-content/uploads/2021/12/Spider-Man-2099-Miguel-Ohara-and-Miles-Morales-in-Spider-Verse-2-trailerand-.jpg?q=50&fit=crop&w=830&h=419&dpr=1.5"alt="spider man to the multeverse2" class="main">
+                <p class="head2">EXCLUSIVE: Oscar Isaac says his Across the Spider-Verse's Spider-Man 2099 won't be making wisecracks like his other, more humorous fellow Spideys.</p>
+                <h1 class="head1">Avatar 2 First Footage Descriptions Expected Tomorrow</h1>
+                <img src="https://static0.srcdn.com/wordpress/wp-content/uploads/2022/04/Avatar.jpg?q=50&fit=crop&w=960&h=500&dpr=1.5"alt="img" class="main">
+                <p class="head2">The first footage from James Cameron's highly anticipated Avatar 2 is expected to be shown at CinemaCon tomorrow, with descriptions to follow.</p>
+                <h1 class="head1">Chris Evans Reacts To Endgame Captain America Scene Fan Response Video</h1>
+                <img src="https://static1.srcdn.com/wordpress/wp-content/uploads/2020/04/Captain-America-wielding-Thors-Hammer-Mjolnir-in-Avengers-Endgame.jpg?q=50&fit=crop&w=960&h=500&dpr=1.5"alt="img" class="main">
+                <p class="head2">For the three-year anniversary of Avengers: Endgame, Chris Evans responds to a video featuring a crowd's reaction to Captain America wielding Mjolnir.</p>
+                <h1 class="head1">Fast & Furious 10 Director Exits Days After Filming Begins</h1>
+                <img src="https://static1.srcdn.com/wordpress/wp-content/uploads/2022/04/Fast-X-Fast-Furious-10-Missed-The-Best-Sequel-Title-Opportunity.jpg?q=50&fit=crop&w=830&h=419&dpr=1.5"alt="img" class="main">
+                <p class="head2">Fast & Furious 10 has lost its director just a few days after production began, as franchise veteran Justin Lin exits due to creative differences.</p>
+                <h1 class="head1">David Harbour Cast As Mobster Who Inspired Tony Soprano</h1>
+                <img src="https://static1.srcdn.com/wordpress/wp-content/uploads/2022/03/David-Harbour-as-Hopper-in-Stranger-Things-Season-4-Header.jpg?q=50&fit=crop&w=960&h=500&dpr=1.5"alt="img" class="main">
+                <p class="head2">Stranger Things star David Harbour will play the lead role of real-life mobster Jimmy Galante in Cooper Raiff's upcoming film The Trashers.</p>
+                
+            </div>
+            <div class="right">
+                <h3 class="heading-3">trending</h3>
+                <div class="list">
+                    <div class="list">
+                        <img class="img"src="https://static0.srcdn.com/wordpress/wp-content/uploads/2022/04/superman-movies-doomed.jpg?q=50&fit=crop&w=320&h=160&dpr=1.5" alt=" superman">
+                        <p class="p"> Why Superman Movies Always Seem Doomed To Fail</p>
+                    </div>
+                    <div class="list">
+                        <img class="img"src="https://static1.srcdn.com/wordpress/wp-content/uploads/2022/04/Streets-of-Rage-next-John-Wick.jpg?q=50&fit=crop&w=320&h=160&dpr=1.5" alt=" john wick">
+                        <p class="p" > Why Streets Of Rage Could Become The Next John Wick</p>
+                    </div>
+                    <div class="list">
+                        <img class="img"src="https://static1.srcdn.com/wordpress/wp-content/uploads/2022/04/The-Unbearable-Weight-of-Massive-Talent.jpg?q=50&fit=crop&w=320&h=160&dpr=1.5" alt="image 3">
+                        <p class="p" > Massive Talent: Daniel Day-Lewis Was Considered To Play Nicolas Cage</p>
+                    </div>
+                    <div class="list">
+                        <img class="img"src="https://static2.srcdn.com/wordpress/wp-content/uploads/2022/04/Scarlet-witch-links-to-the-eternals-doctor-strange-multiverse-of-madness.jpg?q=50&fit=crop&w=320&h=160&dpr=1.5" alt=" image 4">
+                        <p class="p"> Doctor Strange 2 Detail Secretly Links Scarlet Witch To Eternals</p>
+                    </div>
+                    <div class="list">
+                        <img class="img"src="https://static0.srcdn.com/wordpress/wp-content/uploads/2022/04/Sonic-the-hedgehog-2-Perfect-As-Jim-Carreys-Final-Acting-Role.jpg?q=50&fit=crop&w=320&h=160&dpr=1.5" alt=" image 4">
+                        <p class="p"> Why Sonic The Hedgehog 2 Is Perfect As Jim Carrey’s Final Acting Role</p>
+                    </div>
+                    <div class="list">
+                        <img class="img"src="https://static0.srcdn.com/wordpress/wp-content/uploads/2022/04/Thor-love-and-thunder-classic-thor-easter-egg-phase-4-trend-classic-comic-costumes.jpg?q=50&fit=crop&w=320&h=160&dpr=1.5" alt=" image 4">
+                        <p class="p"> Love & Thunder's Classic Thor Easter Egg Continues A Great Phase 4 Trend</p>
+                    </div>
+                    <div class="list">
+                        <img class="img"src="https://static2.srcdn.com/wordpress/wp-content/uploads/2017/08/Harry-Potter-movies-worst-book-changes.jpg?q=50&fit=crop&w=320&h=160&dpr=1.5" alt=" image 4">
+                        <p class="p"> Harry Potter Images Reveal Characters' Book-Accurate Looks Using AI</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+    <script src="news.js"></script>
+</body> 
+</html>   

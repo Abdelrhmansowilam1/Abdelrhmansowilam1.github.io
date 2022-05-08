@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+.contact{
+    width: 1100px;
+    height: 550px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(225, 225, 225);
+    border-radius: 14px;
+    box-shadow: 0 0 10px rgb(28, 28, 28);
+}
+
+.info{
+    width: 65%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.col{
+    width: 35%;
+    background-color: #d8323c;
+    border-radius: 14px;
+}
+.me{
+    display: flex;
+    flex-direction: row;
+}
+.me .name{
+    width: 300px;
+    margin-right: 20px;
+    height: 30px;
+    border-radius: 13px;
+    border: none;
+    outline: none;
+    padding: 15px;
+    font-size: 17px;
+}
+
+.me .phone{
+    width: 300px;
+    margin-right: 20px;
+    height: 30px;
+    border-radius: 13px;
+    border: none;
+    outline: none;
+    padding: 15px;
+    font-size: 17px;
+
+}
+
+.info .con{
+    display: flex;
+    flex-direction: row;
+}
+.info .con .email{
+    width: 300px;
+    margin-right: 20px;
+    height: 30px;
+    border-radius: 13px;
+    border: none;
+    outline: none;
+    padding: 15px;
+    font-size: 17px;
+
+}
+
+.info .con .password{
+    width: 300px;
+    margin-right: 20px;
+    height: 30px;
+    border-radius: 13px;
+    border: none;
+    outline: none;
+    padding: 15px;
+    font-size: 17px;
+
+}
+.info .mass .massage{
+    width: 630px;
+    /* margin-right: 20px; */
+    height: 250px;
+    border-radius: 13px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.info .title{
+    text-align: center;
+    color: #d8323c;
+    font-size: 25px;
+}
+.contact .col {
+    padding: 10px;
+    position: relative;
+}
+
+.contact .col h1{
+    color: #fff;
+    text-align: center;
+}
+
+.contact .col .icons{
+    position: absolute;
+    bottom: 10px;
+    left: 110px;
+}
+
+.contact .col .icons a{
+    color: #fff;
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+.contact .col .icons a:hover{
+    color: #0c0e0c;
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+.subm > button{
+    width:100px;
+    height: 20px;
+    border-radius: 7px;
+    background-color: #d8323c;
+    color:#eaebea;
+    border:none;
+    cursor: pointer;
+}
+.subm > button:hover{
+    width:100px;
+    height: 20px;
+    border-radius: 8px;
+    background-color: #0c0e0c;
+    color:#eaebea;
+    transition: 0.5s;
+}
+
+

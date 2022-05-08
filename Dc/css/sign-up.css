@@ -1,0 +1,118 @@
+:root{
+    --color: hsl(218, 39% , 18%);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Nunito', sans-serif;
+    background-color: hsl(222, 25%, 10%);
+    /* background-image: url(../image/49598.jpg); */
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.con{
+    width: 900px;
+    height: 650px;
+    margin: 50px auto;
+    background-color: white;
+    display: flex;
+    border-radius: 15px;
+    box-shadow: rgb(255, 255, 255);
+}
+
+.con img{
+    width: 50%;
+    border-radius: 15px;
+}
+
+.con .sign{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.con .sign h1{
+    font-size: 40px;
+    font-weight: 800;
+}
+.con .sign form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    
+}
+.con .sign form input{
+    margin: 20px;
+    border: none;
+    text-align: center;
+    border-bottom: 2px solid var(--color);
+    padding: 20px 20px;
+    color: var(--color);
+}
+
+.con .sign button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 35px;
+    width: 90px;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--color);
+    transition: .5s;
+}
+.con .sign button:hover{
+    background-color: white;
+    border-bottom: 2px solid var(--color);
+    border-radius: 0;
+    padding-bottom: 30px;
+}
+.con .sign button:hover a{
+    color: var(--color);
+    font-size: 25px;
+    font-weight: 300;
+    padding-bottom: 30px;
+}
+.con .sign button a{
+    color: white;
+    transition: .5s;
+}
+
+.con .sign .icon{
+    display: flex;
+}
+
+.con .sign .icon a{
+    color: var(--color);
+    font-size: 30px;
+    font-weight: 700;
+    margin: 10px;
+    padding: 10px;
+}
+.con .sign .textl p{
+    font-size: 20px;
+}
+.con .sign .textl p a{
+    color: var(--color);
+    font-weight: 600;
+}
+.con .sign .textl p a:hover{
+    text-decoration: underline;
+}
