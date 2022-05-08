@@ -4,7 +4,7 @@ body {
     color:#eaebea;
     font-size:20px;
 }
-body.dark-mode{
+body.switch{
     font-family: 'Courier New', Courier, monospace;
     background-color: #eaebea;
     color: #0c0e0c;
