@@ -71,11 +71,12 @@ a{
 .sidebar:hover >.sidemenu{
     display:block;
     background-color: #d8323c;
-    width:230px;
+    width:200px;
     position:absolute;
     top:55px;
     height:fit-content;
-    right:0;
+    right:20px;
+    text-align:right;
 }
 .clear{
     clear:both;
