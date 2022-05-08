@@ -70,6 +70,7 @@ a{
 }
 .sidebar:hover >.sidemenu{
     display:block;
+    background-color: #55ACEE;
 }
 .clear{
     clear:both;
