@@ -70,7 +70,13 @@ a{
 }
 .sidebar:hover >.sidemenu{
     display:block;
-    background-color: #55ACEE;
+    background-color: #d8323c;
+    border:2px inset #0c0e0c;
+    width:200px;
+    position:absolute;
+    top:60px;
+    height:fit-content;
+    right:0;
 }
 .clear{
     clear:both;
