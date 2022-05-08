@@ -280,6 +280,5 @@ td.raw1.dark-mode{
     border-bottom: 1px dotted #d8323c;
 }
 td.callus ul{list-style-type: none;}
-td.callus ul li{margin:5px;}
-td.callus ul li a{cursor: pointer;}
+td.callus ul li a{cursor: pointer;color:#0c0e0c;}
 td.callus ul li a:hover{color:#eaebea;}
