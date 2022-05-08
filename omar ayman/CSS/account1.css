@@ -22,9 +22,8 @@ body{
     top:0;
     left:0;
     width:100%;
-    height:60px;
+    height:40px;
     flex-direction: row;
-    z-index:10;
     justify-content: space-between;
     /* align-items: center; */
     background-color: #d8323c;
@@ -48,43 +47,40 @@ body{
     color: #fff;
     transition: .4s;padding-top: 0px;
 }
-
+.nav .list li a{
+    padding-left: 25px;
+    font-size: 20px;
+    color: #fff;
+    transition: .4s;padding-top: 0px;
+}
 .nav .list a li:hover{
     font-size: 23px;
     color: #0c0e0c;
 }
-
-.nav .icon{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+.nav .list li a:hover{
+    font-size: 23px;
+    color: #0c0e0c;
 }
-.nav .icon input{
-    padding: 7px;
-    padding-left: 10px;
-    border-radius: 9px;
-    border: none;
-    outline: none;
-}
-
-.nav .icon a{
-    color: #fff;
-    margin-left: 25px;
-    font-size: 24px;
-    transition: .4s;
-}
-.nav .icon a:hover{
-    color: rgb(17, 140, 255);
-    font-size: 30px;
-}ul{
+ul{
     list-style: none;
 }
 
 a{
     text-decoration: none;
 }
-
-
+.sidemenu{
+    display:none;
+}
+.sidebar:hover >.sidemenu{
+    display:block;
+    background-color: #d8323c;
+    width:200px;
+    position:absolute;
+    top: 50px;
+    height:fit-content;
+    right:20px;
+    text-align:right;
+}
 .container{
     display: flex;
     justify-content:space-between;
@@ -280,5 +276,6 @@ td.raw1.dark-mode{
     border-bottom: 1px dotted #d8323c;
 }
 td.callus ul{list-style-type: none;}
-td.callus ul li a{cursor: pointer;color:#0c0e0c;}
+td.callus ul li{margin:5px;}
+td.callus ul li a{cursor: pointer;}
 td.callus ul li a:hover{color:#eaebea;}
