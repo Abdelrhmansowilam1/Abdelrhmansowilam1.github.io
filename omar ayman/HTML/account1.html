@@ -55,22 +55,22 @@
         <h1>ABOUT</h1>
         <div class="name">
         <h3>NAME</h3>
-        <P>omar ayman Farouk</P>
+        <P id="name"></P>
         </div>
         <hr>
         <div class="gender">
         <h3>GENDER</h3>
-        <P>male</P>
+        <P id="gender"></P>
         </div>
         <hr>
         <div class="birth">
         <h3>BIRTHDAY</h3>
-        <P>March 6,2002</P>
+        <P id="birth"></P>
         </div>
         <hr>
         <div class="country">
         <h3>COUNTRY</h3>
-        <P>Egypt</P>
+        <P id="country"></P>
         </div>
     </div>
     
@@ -78,28 +78,23 @@
         <h1>CONTACT</h1>
         <div class="phone">
         <h3><i class="fa-solid fa-phone"></i></h3>
-        <P>01117803344</P>
+        <P id="phone"></P>
         </div>
         <hr>
         <div class="email">
         <h3><i class="fa-solid fa-envelope"></i></h3>
-        <p>omar.a.farouk22@gmail.com</p>
+        <p id="email"></p>
         </div>
-        <hr>
-        <div class="tele">
-        <h3><i class="fa-solid fa-paper-plane"></i></h3>
-        <p>84787997</p>
-        </div>
+        
+        
     </div>
     
     <div id="hobby1">
         <h1>HOBBY</h1>
         <ul>
 
-            <li>watching anime</li>
-            <li>playing football</li>
-            <li>coding</li>
-
+            <li id="hobbies"></li>
+        
         </ul>
     </div>
     
@@ -111,7 +106,70 @@
     </div>
     </div>
     </div>
+    <div class="parentjava">
+    <div class="childjava">
+        <span class="counter3" id="cnt1">1 </span>
+        <p>visitors <i class="fa-solid fa-users"></i></p>
+    </div>
+    <div class="childjava">
+        <span class="counter3" id="cnt2">1 </span>
+        <p>users<i class="fa-solid fa-users"></i></p>
+    </div>
+    <div class="childjava">
+        <span class="counter3" id="cnt3">1 </span>
+        <p>love<i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
 
+
+<script>
+
+    var num1 = document.getElementById("cnt1");
+    var num2 = document.getElementById("cnt2");
+    var num3 = document.getElementById("cnt3");
+    
+    function counter(element, start, end ,duration){
+        var range = end - start;
+        var current = start;
+        var increment = 0;
+        if(end > start){
+            increment= 1;
+        }
+        else{
+            increment= -1;
+        }
+    
+        var timer = setInterval(function ()  {
+             current += increment;
+             element.textContent = current;
+             if(current == end){
+                 clearInterval(timer);
+             }
+        }, duration);
+    
+    }
+    
+    counter(num1,1,100,50);
+    counter(num2,1,200,150);
+    counter(num3,1,995,100);
+    </script>
+    <script>
+            let person = prompt("Please enter your name", "Your name");
+            let country = prompt("my country is", "saudia");
+            let phone= prompt("Please enter your phone number", "+20");
+            let birthday=prompt("my birth day is", "2002, 6 ,3");
+            let email =prompt("Please enter your mail","john.doe@gmail.com");
+            let gender=prompt("my gender is ...","male")
+            let hobby=prompt("my hobby is/are ...","anime")
+          
+            document.getElementById("name").innerHTML = person;
+            document.getElementById("country").innerHTML = country;
+            document.getElementById("phone").innerHTML = phone;
+            document.getElementById("birth").innerHTML = birthday;
+            document.getElementById("email").innerHTML = email;
+            document.getElementById("gender").innerHTML=gender;
+            document.getElementById("hobbies").innerHTML= hobby;
+    </script>
     <footer>
     <table id="footer" class="main-footer">
         <tr>
