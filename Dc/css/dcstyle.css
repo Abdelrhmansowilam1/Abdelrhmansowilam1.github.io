@@ -269,10 +269,10 @@ a{
     display:block;
     background-color: #d8323c;
     width:200px;
-    position:absolute;
+    position:fixed;
     top: 50px;
     height:fit-content;
-    right:20px;
+    right:0px;
     text-align:right;
 }
   /* end nav */
