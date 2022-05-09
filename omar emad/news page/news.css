@@ -12,7 +12,7 @@ background-color:#0c0e0c;
     padding:10px;
     z-index:10;
     display: flex;
-    position:sticky;
+    position:fixed;
     top:0;
     left:0;
     width:100%;
@@ -45,6 +45,12 @@ background-color:#0c0e0c;
     font-size: 23px;
     color: #0c0e0c;
 }
+.nav .list li a{
+    padding-left: 25px;
+    font-size: 20px;
+    color: #fff;
+    transition: .4s;padding-top: 0px;
+}
 .nav .list li a:hover{
     font-size: 23px;
     color: #0c0e0c;
@@ -55,6 +61,7 @@ ul{
 
 a{
     text-decoration: none;
+    cursor: pointer;
 }
 .sidemenu{
     display:none;
@@ -64,10 +71,10 @@ a{
     background-color: #d8323c;
     z-index:11;
     width:230px;
-    position:absolute;
+    position:fixed;
     top: 50px;
     height:fit-content;
-    right:20px;
+    right:0px;
     text-align:right;
 }
 .listing-header {
