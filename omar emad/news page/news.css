@@ -241,9 +241,6 @@ td.raw1{
     border-bottom: 1px dotted #0c0e0c;
     width:50%;
 }
-td.raw1.dark-mode{
-    border-bottom: 1px dotted #d8323c;
-}
 td.callus ul{list-style-type: none;}
-td.callus ul li a{cursor: pointer;;margin-left:-40px;}
+td.callus ul li a{cursor: pointer;;margin-left:-40px;color:#0c0e0c;}
 td.callus ul li a:hover{color:#eaebea;}
