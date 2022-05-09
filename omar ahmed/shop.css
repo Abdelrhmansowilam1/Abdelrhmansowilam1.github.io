@@ -21,6 +21,7 @@ html{
     /* margin-right: 100px; */
     padding-top:5px;
     padding:10px;
+    z-index: 10;
     display: flex;
     position:fixed;
     top:0;
@@ -51,15 +52,15 @@ html{
     color: #fff;
     transition: .4s;padding-top: 0px;
 }
+.nav .list a li:hover{
+    font-size: 23px;
+    color: #0c0e0c;
+}
 .nav .list li a{
     padding-left: 25px;
     font-size: 20px;
     color: #fff;
     transition: .4s;padding-top: 0px;
-}
-.nav .list a li:hover{
-    font-size: 23px;
-    color: #0c0e0c;
 }
 .nav .list li a:hover{
     font-size: 23px;
