@@ -17,12 +17,13 @@ body{
     /* margin-right: 100px; */
     padding-top:5px;
     padding:10px;
+    z-index: 2;
     display: flex;
     position:fixed;
     top:0;
     left:0;
     width:100%;
-    height:40px;
+    height:55px;
     flex-direction: row;
     justify-content: space-between;
     /* align-items: center; */
@@ -75,10 +76,10 @@ a{
     display:block;
     background-color: #d8323c;
     width:200px;
-    position:absolute;
+    position:fixed;
     top: 50px;
     height:fit-content;
-    right:20px;
+    right:0px;
     text-align:right;
 }
 .container{
@@ -277,5 +278,5 @@ td.raw1.dark-mode{
 }
 td.callus ul{list-style-type: none;}
 td.callus ul li{margin:5px;}
-td.callus ul li a{cursor: pointer;}
+td.callus ul li a{cursor: pointer;margin-left:-40px;color:#0c0e0c;}
 td.callus ul li a:hover{color:#eaebea;}
