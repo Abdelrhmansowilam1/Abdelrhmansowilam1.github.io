@@ -234,6 +234,26 @@ a{
     margin-left: 5px;
 }
 
+.parentjava{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:#0c0e0c;
+    padding:40px;
+}
+
+.childjava span{
+    border-radius: 50%;
+    border: 2px solid #eaebea;
+    padding: 20px;
+    color:#eaebea
+} 
+
+.childjava p{
+    text-align: center;
+    font-size: 20px;
+    color:brown
+}
+
 #footer  {
     width:100%;
     height:fit-content;
