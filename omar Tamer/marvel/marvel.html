@@ -15,6 +15,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Monoton&family=Open+Sans:ital,wght@1,500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="\omar Tamer\marvel\Swiper Files\swiper-bundle.min.css">
     <link type="image/png" sizes="16x16" rel="icon" href="\Home\images\icons8-cinema-4d-16.png">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet">
 
 
 </head>
@@ -41,6 +44,14 @@
             </a>
         </ul>
     </div><br><br><br>
+    <div class="dark">
+        <input type="checkbox" class="checkbox" id="chk" />
+        <label class="label" for="chk">
+            <i class="fas fa-moon"></i>
+            <i class="fas fa-sun"></i>
+            <div class="ball"></div>
+        </label>
+    </div>
 <nav class="navigation">
 
     <!-- menu button -->
@@ -441,6 +452,17 @@
         </tr>
     </table>
 </footer>
+<script>
 
+const chk = document.getElementById('chk');
+
+chk.addEventListener('change', () => {
+	document.body.classList.toggle('dark');
+});
+
+
+
+
+</script>
 </body>
 </html>
