@@ -285,6 +285,10 @@ a{
 .main-footer{    width:100%;    border-collapse: collapse;
 }
 
+td#RAWELE1.raw1 {
+    padding-right:40px;
+}
+
 td.raw1{
     border-bottom: 1px dotted #0c0e0c;
     width:50%;
