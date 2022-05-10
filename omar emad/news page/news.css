@@ -233,7 +233,6 @@ body{
         font-weight: 700;
         color: var(--primary-color);
         line-height: 1.3;
-        font-family: Khand;
         margin-top: 20px
     }
     .head1:hover{
