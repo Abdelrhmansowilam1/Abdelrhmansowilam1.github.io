@@ -1,11 +1,72 @@
+:root{
+    --primary-color:#eaebea;
+    --secondary-color:#d8323c;
+    --third-color:#0c0e0c;
+    --first-font:poppins;
+}
+.dark{
+    --primary-color:#A11212;
+    --secondary-color:#FEA904;
+    --third-color:#F3E6D4;
+    --first-font: 'Macondo', cursive;;
+    
+}
+.checkbox {
+	opacity: 0;
+	position: absolute;
+}
+
+.label {
+	background-color: #111;
+	border-radius: 50px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 5px;
+	height: 26px;
+	width: 50px;
+	transform: scale(1.5);
+    position: absolute;
+    top: 68px;
+    left: 11px;
+}
+
+
+.label .ball {
+	background-color: #fff;
+	border-radius: 50%;
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	height: 22px;
+	width: 22px;
+	transform: translateX(0px);
+	transition: transform 0.2s linear;
+}
+
+.checkbox:checked + .label .ball {
+	transform: translateX(24px);
+}
+
+
+.fa-moon {
+	color: #f1c40f;
+}
+
+.fa-sun {
+	color: #f39c12;
+}
+
+
 *{
     margin: 0px;
     padding: 0px;
-    font-family: poppins;
+    font-family: var(--first-font);
     box-sizing: border-box;
 }
 body{
-    background-color: #0c0e0c;
+    background-color: var(--third-color);
 
 }
 
@@ -23,12 +84,12 @@ body{
     flex-direction: row;
     justify-content: space-between;
     /* align-items: center; */
-    background-color: #d8323c;
+    background-color: var( --secondary-color);
     /* border-radius: 12px; */
 }
 .nav .lo{
     font-size: 30px;
-    color: #fff;
+    color: var(--primary-color);
 }
 .nav .list{
     display: flex;
@@ -41,22 +102,22 @@ body{
 .nav .list a li{
     padding-left: 25px;
     font-size: 20px;
-    color: #fff;
+    color: var(--primary-color);
     transition: .4s;padding-top: 0px;
 }
 .nav .list a li:hover{
     font-size: 23px;
-    color: #0c0e0c;
+    color: var(--third-color);
 }
 .nav .list li a{
     padding-left: 25px;
     font-size: 20px;
-    color: #fff;
+    color: var(--primary-color);
     transition: .4s;padding-top: 0px;
 }
 .nav .list li a:hover{
     font-size: 23px;
-    color: #0c0e0c;
+    color: var(--third-color);
 }
 ul{
     list-style: none;
@@ -70,7 +131,7 @@ a{
 }
 .sidebar:hover >.sidemenu{
     display:block;
-    background-color: #d8323c;
+    background-color: var( --secondary-color);
     width:230px;
     position:fixed;
     top: 50px;
@@ -98,14 +159,14 @@ a{
 .tesnomial-heading h1{
     font-size: 2.2rem;
     font-weight: 500;
-    background-color: #d8323c;
-    color: #eaebea;
+    background-color: var( --secondary-color);
+    color:  var(--primary-color);
     padding: 10px 20px;
 
 }
 .tesnomial-heading span{
     font-size: 1.3rem;
-    color: #eaebea;
+    color:  var(--primary-color);
     margin-bottom: 10px;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -119,7 +180,7 @@ a{
 }
 .testnomial-box{
     width: 500px;
-    background-color: #d8323c;
+    background-color: var( --secondary-color);
     padding: 20px;
     margin: 15px;
     cursor: pointer;
@@ -150,7 +211,7 @@ a{
 
 }
 .name-user strong{
-    color: #eaebea;
+    color:  var(--primary-color);
     font-size: 1.1rem;
     letter-spacing: 0.5px;
 
