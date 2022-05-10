@@ -280,7 +280,12 @@ background-color:#0c0e0c;
 
 #footer td a.fa-youtube  {background: #bb0000;color: white;}
 
-.main-footer{    width:100%;    border-collapse: collapse;
+td#RAWELE1.raw1 {
+    padding-right:40px;
+}
+.main-footer{
+    width:100%;
+    border-collapse: collapse;
 }
 
 td.raw1{
