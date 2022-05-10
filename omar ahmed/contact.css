@@ -10,6 +10,10 @@ body.dark{
     --third-color:#d8323c;
     --first-font: 'Macondo', cursive;
 }
+/* var(--secondary-color) */
+
+/* var(--secondary-color) */
+/* var(--third-color) */
 *{
     margin: 0;
     padding: 0;
@@ -84,7 +88,7 @@ body.dark{
 
 .col{
     width: 35%;
-    background-color: #d8323c;
+    background-color: var(--secondary-color) ;
     border-radius: 14px;
 }
 .me{
@@ -189,7 +193,7 @@ body.dark{
     width:100px;
     height: 20px;
     border-radius: 7px;
-    background-color: #d8323c;
+    background-color: var(--secondary-color) ;
     color:#eaebea;
     border:none;
     cursor: pointer;
@@ -198,8 +202,8 @@ body.dark{
     width:100px;
     height: 20px;
     border-radius: 8px;
-    background-color: #0c0e0c;
-    color:#eaebea;
+    background-color: var(--third-color) ;
+    color:var(--primary-color) ;
     transition: 0.5s;
 }
 
