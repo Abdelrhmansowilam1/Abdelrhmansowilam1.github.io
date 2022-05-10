@@ -52,13 +52,15 @@ a{
     padding-left: 25px;
     font-size: 20px;
     color: #fff;
-    transition: .4s;padding-top: 0px;
+    transition: .4s;
+    padding-top: 0px;
 }
 .nav .list li a{
     padding-left: 25px;
     font-size: 20px;
     color: #fff;
-    transition: .4s;padding-top: 0px;
+    transition: .4s;
+    padding-top: 0px;
 }
 .nav .list a li:hover{
     font-size: 23px;
