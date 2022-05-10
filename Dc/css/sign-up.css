@@ -1,5 +1,5 @@
 :root{
-    --color: hsl(218, 39% , 18%);
+    --color: #0c0e0c;
 }
 *{
     padding: 0;
@@ -8,7 +8,7 @@
 }
 body{
     font-family: 'Nunito', sans-serif;
-    background-color: hsl(222, 25%, 10%);
+    background-color:  #0c0e0c;
     /* background-image: url(../image/49598.jpg); */
 }
 
@@ -80,12 +80,12 @@ a{
 }
 .con .sign button:hover{
     background-color: white;
-    border-bottom: 2px solid var(--color);
+    border-bottom: 2px solid #d8323c;
     border-radius: 0;
     padding-bottom: 30px;
 }
 .con .sign button:hover a{
-    color: var(--color);
+    color: #d8323c;
     font-size: 25px;
     font-weight: 300;
     padding-bottom: 30px;
@@ -115,4 +115,8 @@ a{
 }
 .con .sign .textl p a:hover{
     text-decoration: underline;
+    color:#d8323c;
+}
+.fa-brands:hover{
+    color:#d8323c;
 }
