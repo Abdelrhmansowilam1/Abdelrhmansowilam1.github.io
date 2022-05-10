@@ -1,3 +1,15 @@
+:root{
+    --primary-color:#eaebea;
+    --secondary-color:#d8323c;
+    --third-color:#0c0e0c;
+    --first-font:Verdana, Geneva, Tahoma, sans-serif;
+}
+body.dark{
+    --primary-color:blue;
+    --secondary-color:#eaebea;
+    --third-color:#d8323c;
+    --first-font: 'Macondo', cursive;
+}
 *{
     margin: 0;
     padding: 0;
