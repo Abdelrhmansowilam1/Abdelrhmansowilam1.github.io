@@ -4,7 +4,7 @@
     --third-color:#0c0e0c;
     --first-font:Verdana, Geneva, Tahoma, sans-serif;
 }
-body.dark{
+.dark{
     --primary-color:#0c0e0c;
     --secondary-color:#eaebea;
     --third-color:#d8323c;
@@ -132,7 +132,7 @@ a{
 	margin:0px;
 	padding:0px;
 	box-sizing: border-box;
-	font-family: 'Poppins', sans-serif;
+	font-family:var(--first-font);
 
 }
 .section{
