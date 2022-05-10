@@ -287,3 +287,10 @@ a{
 	td.callus ul li a:hover{color:var(--primary-color);}
 
  
+a{
+    color:#eaebea;
+}
+
+.fa{
+color:#eaebea;	
+}
