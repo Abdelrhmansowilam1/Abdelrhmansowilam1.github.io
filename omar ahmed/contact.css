@@ -1,4 +1,4 @@
-::root{
+:root{
     --primary-color:#eaebea;
     --secondary-color:#d8323c;
     --third-color:#0c0e0c;
@@ -190,6 +190,24 @@ body{
     color: var(--third-color);
     font-size: 30px;
     margin-right: 20px;
+}
+
+.subm > button{
+    width:100px;
+    height: 20px;
+    border-radius: 7px;
+    background-color: var(--secondary-color) ;
+    color: var(--third-color);
+    border:none;
+    cursor: pointer;
+}
+.subm > button:hover{
+    width:100px;
+    height: 20px;
+    border-radius: 8px;
+    background-color: var(--third-color) ;
+    color:var(--primary-color) ;
+    transition: 0.5s;
 }
 
 .subm > button{
