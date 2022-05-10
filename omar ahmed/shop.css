@@ -1,9 +1,70 @@
+:root{
+    --primary-color:#eaebea;
+    --secondary-color:#d8323c;
+    --third-color:#0c0e0c;
+    --first-font:Verdana, Geneva, Tahoma, sans-serif;
+}
+body.dark{
+    --primary-color:#A11212;
+    --secondary-color:#FEA904;
+    --third-color:#F3E6D4;
+    --first-font: 'Macondo', cursive;
+}
+.checkbox {
+	opacity: 0;
+	position: absolute;
+}
+
+.label {
+	background-color: #111;
+	border-radius: 50px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 5px;
+	height: 26px;
+	width: 50px;
+	transform: scale(1.5);
+    position: absolute;
+    top: 68px;
+    left: 11px;
+}
+
+
+.label .ball {
+	background-color: #fff;
+	border-radius: 50%;
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	height: 22px;
+	width: 22px;
+	transform: translateX(0px);
+	transition: transform 0.2s linear;
+}
+
+.checkbox:checked + .label .ball {
+	transform: translateX(24px);
+}
+
+
+.fa-moon {
+	color: #f1c40f;
+}
+
+.fa-sun {
+	color: #f39c12;
+}
+
+
+
 
 
 *{
     margin:0; padding:0;
     box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: var(--first-font);
     outline: none; border:none;
     text-decoration: none;
     text-transform: capitalize;
@@ -31,12 +92,12 @@ html{
     flex-direction: row;
     justify-content: space-between;
     /* align-items: center; */
-    background-color: #d8323c;
+    background-color: var( --secondary-color);
     /* border-radius: 12px; */
 }
 .nav .lo{
     font-size: 30px;
-    color: #fff;
+    color:  var(--primary-color);
 }
 .nav .list{
     display: flex;
@@ -49,22 +110,22 @@ html{
 .nav .list a li{
     padding-left: 25px;
     font-size: 20px;
-    color: #fff;
+    color:  var(--primary-color);
     transition: .4s;padding-top: 0px;
 }
 .nav .list a li:hover{
     font-size: 23px;
-    color: #0c0e0c;
+    color: var(--third-color);
 }
 .nav .list li a{
     padding-left: 25px;
     font-size: 20px;
-    color: #fff;
+    color:  var(--primary-color);
     transition: .4s;padding-top: 0px;
 }
 .nav .list li a:hover{
     font-size: 23px;
-    color: #0c0e0c;
+    color: var(--third-color);
 }
 ul{
     list-style: none;
@@ -78,7 +139,7 @@ a{
 }
 .sidebar:hover >.sidemenu{
     display:block;
-    background-color: #d8323c;
+    background-color: var( --secondary-color);
     width:230px;
     position:absolute;
     top: 50px;
@@ -93,29 +154,29 @@ section{
 .heading{
     text-align: center;
     font-size: 4rem;
-    color:#eaebea;
+    color:var(--primary-color);
     padding:1rem;
     margin:2rem 0;
     background:rgb(217 212 214 / 5%);
 }
 
 .heading span{
-    color:#d8323c;
+    color:var( --secondary-color);
 }
 
 .btn{
     display: inline-block;
     margin-top: 1rem;
     border-radius: 5rem;
-    background:#333;
-    color:#fff;
+    background:var(--third-color);
+    color: var(--primary-color);
     padding:.9rem 3.5rem;
     cursor: pointer;
     font-size: 1.7rem;
 }
 
 .btn:hover{
-    background:#d8323c;
+    background:var( --secondary-color);
 }
 
 
@@ -131,19 +192,19 @@ section{
 
 .home .content h3{
     font-size: 6rem;
-    color:#eaebea;
+    color:var(--primary-color);
 }
 
 .home .content span{
     font-size: 3.5rem;
-    color:#d8323c;
+    color:var( --secondary-color);
     padding:1rem 0;
     line-height: 1.5;
 }
 
 .home .content p{
     font-size: 1.5rem;
-    color:#eaebea;
+    color:var(--primary-color);
     padding:1rem 0;
     line-height: 1.5;
 }
@@ -166,7 +227,7 @@ section{
     top:1rem; left:1rem;
     padding:.7rem 1rem;
     font-size: 2rem;
-    color:#d8323c;
+    color:var( --secondary-color);
     background:rgba(255, 51, 153,.05);
     z-index: 1;
     border-radius: .5rem;
@@ -202,8 +263,8 @@ section{
     line-height: 5rem;
     font-size: 2rem;
     width:50%;
-    background:#d8323c;
-    color:#fff;
+    background:var( --secondary-color);
+    color: var(--primary-color);
 }
 
 .products .box-container .box .image .icons .cart-btn{
@@ -213,7 +274,7 @@ section{
 }
 
 .products .box-container .box .image .icons a:hover{
-    background:#333;
+    background:var(--third-color);
 }
 
 .products .box-container .box .content{
@@ -223,19 +284,19 @@ section{
 
 .products .box-container .box .content h3{
     font-size: 2.5rem;
-    color:#eaebea;
+    color:var(--primary-color);
 }
 
 .products .box-container .box .content .price{
     font-size: 2.5rem;
-    color:#d8323c;
+    color:var( --secondary-color);
     font-weight: bolder;
     padding-top: 1rem;
 }
 
 .products .box-container .box .content .price span{
     font-size: 1.5rem;
-    color:#eaebea;
+    color:var(--primary-color);
     font-weight: lighter;
     text-decoration: line-through;
 }
@@ -247,7 +308,7 @@ img{
     height: 100px;
 }
 body{
-    background-color:#0c0e0c
+    background-color:var(--third-color)
 }
 
 
@@ -255,8 +316,8 @@ body{
     font-size:large;
     width:100%;
     height:170px;
-    background-color: #d8323c;    
-    color:#0c0e0c;
+    background-color: var( --secondary-color);    
+    color:var(--third-color);
     text-align: center;
     text-transform: uppercase;
     position:absolute;
@@ -272,13 +333,13 @@ transition: 0.2s;
 }
 #footer td a.fa:hover {
 /*     opacity: 0.7; */
-background-color:#0c0e0c;
+background-color:var(--third-color);
 }
-#footer td a.fa-facebook {background: #3B5998;color: white;}
+#footer td a.fa-facebook {background: #3B5998;color:  var(--primary-color);}
 
-#footer td a.fa-twitter  {background: #55ACEE;color: white;}
+#footer td a.fa-twitter  {background: #55ACEE;color:  var(--primary-color);}
 
-#footer td a.fa-youtube  {background: #bb0000;color: white;}
+#footer td a.fa-youtube  {background:  var(--secondary-color);color:  var(--primary-color);}
 
 td#RAWELE1.raw1 {
     padding-right:40px;
@@ -289,10 +350,10 @@ td#RAWELE1.raw1 {
 }
 
 td.raw1{
-border-bottom: 1px dotted #0c0e0c;
+border-bottom: 1px dotted var(--third-color);
 width:50%;
 }
 td.callus ul{list-style-type: none;}
-td.callus ul li a{cursor: pointer;;margin-left:-40px;color:#0c0e0c;}
+td.callus ul li a{cursor: pointer;;margin-left:-40px;color:var(--third-color);}
 
-td.callus ul li a:hover{color:#eaebea;}
+td.callus ul li a:hover{color:var(--primary-color);}
