@@ -5,9 +5,9 @@
     --first-font:Verdana, Geneva, Tahoma, sans-serif;
 }
 .dark{
-    --primary-color:#0c0e0c;
-    --secondary-color:#0c0e0c;
-    --third-color:#d8323c;
+    --primary-color:#A11212;
+    --secondary-color:#FEA904;
+    --third-color:#F3E6D4;
     --first-font: 'Macondo', cursive;
 }
 /* var(--secondary-color) */
@@ -40,7 +40,7 @@ body{
 	width: 50px;
 	transform: scale(1.5);
     position: absolute;
-    top: 99px;
+    top: 8px;
     left: 11px;
 }
 
