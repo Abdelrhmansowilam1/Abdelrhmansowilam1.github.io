@@ -31,6 +31,7 @@ body.dark{
     position: absolute;
     top: 68px;
     left: 11px;
+	z-index: 9;
 }
 
 
