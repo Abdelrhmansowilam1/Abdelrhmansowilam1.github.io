@@ -5,9 +5,9 @@
     --first-font:Verdana, Geneva, Tahoma, sans-serif;
 }
 body.dark{
-    --primary-color:blue;
-    --secondary-color:#eaebea;
-    --third-color:#d8323c;
+    --primary-color:#A11212;
+    --secondary-color:#FEA904;
+    --third-color:#F3E6D4;
     --first-font: 'Macondo', cursive;
 }
 .checkbox {
