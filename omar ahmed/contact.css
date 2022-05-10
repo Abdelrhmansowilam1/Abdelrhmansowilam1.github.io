@@ -5,6 +5,7 @@
     --first-font:Verdana, Geneva, Tahoma, sans-serif;
 }
 body.dark{
+
     --primary-color:blue;
     --secondary-color:#eaebea;
     --third-color:#d8323c;
@@ -19,6 +20,12 @@ body.dark{
     padding: 0;
     box-sizing: border-box;
     font-family: 'Nunito', sans-serif;
+}
+body{
+    background-color: var(--primary-color);
+}
+body.dark{
+    background-color: var(--third-color);
 }
 .checkbox {
 	opacity: 0;
@@ -158,7 +165,7 @@ body.dark{
 
 .info .title{
     text-align: center;
-    color: #d8323c;
+    color: var(--secondary-color) ;
     font-size: 25px;
 }
 .contact .col {
