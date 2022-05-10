@@ -4,8 +4,8 @@
     --third-color:#0c0e0c;
     --first-font:Verdana, Geneva, Tahoma, sans-serif;
 }
-body.dark{
-    --primary-color:#eaebea;
+.dark{
+    --primary-color:#0c0e0c;
     --secondary-color:#0c0e0c;
     --third-color:#d8323c;
     --first-font: 'Macondo', cursive;
@@ -27,9 +27,6 @@ body.dark{
 
 body{
     background-color: var(--primary-color);
-}
-body.dark{
-    background-color: var(--third-color);
 }
 .label {
 	background-color: #111;
