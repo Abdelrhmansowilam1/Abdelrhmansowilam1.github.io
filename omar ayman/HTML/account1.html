@@ -5,6 +5,10 @@
     <link rel="stylesheet" href="\omar ayman\CSS\account1.css">
     <link rel="stylesheet" href="\omar ayman\CSS\all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet">
     <link type="image/png" sizes="16x16" rel="icon" href="\Home\images\icons8-cinema-4d-16.png">
     <title>profile</title>
 </head>
@@ -30,6 +34,14 @@
             </a>
         </ul>
     </div><br><br><br>
+    <div class="dark">
+        <input type="checkbox" class="checkbox" id="chk" />
+        <label class="label" for="chk">
+            <i class="fas fa-moon"></i>
+            <i class="fas fa-sun"></i>
+            <div class="ball"></div>
+        </label>
+    </div>
     <!-- endnav -->
     <div class="container">
     <div class="box1">
@@ -169,6 +181,18 @@
             document.getElementById("email").innerHTML = email;
             document.getElementById("gender").innerHTML=gender;
             document.getElementById("hobbies").innerHTML= hobby;
+        
+
+const chk = document.getElementById('chk');
+
+chk.addEventListener('change', () => {
+	document.body.classList.toggle('dark');
+});
+
+
+
+
+
     </script>
     <footer>
     <table id="footer" class="main-footer">
