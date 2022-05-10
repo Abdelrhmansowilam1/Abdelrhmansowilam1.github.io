@@ -107,6 +107,8 @@ a{
     color:#0c0e0c;
     text-align: center;
     text-transform: uppercase;
+    position:absolute;
+    left:0;
 }
 #footer td a.fa {
     padding: 12px;
