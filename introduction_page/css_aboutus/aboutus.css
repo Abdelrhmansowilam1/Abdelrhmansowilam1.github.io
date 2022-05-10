@@ -5,7 +5,7 @@
     --first-font:Verdana, Geneva, Tahoma, sans-serif;
 }
 body.dark{
-    --primary-color:blue;
+    --primary-color:#0c0e0c;
     --secondary-color:#eaebea;
     --third-color:#d8323c;
     --first-font: 'Macondo', cursive;
