@@ -25,10 +25,11 @@ body.dark{
 	justify-content: space-between;
 	height: 27px;
 	width: 50px;
+	position: fixed;
+	top:82px;
+	z-index:11;
+	left: 11px;
 	transform: scale(1);
-    position: absolute;
-    top: 68px;
-    left: 11px;
 }
 
 
