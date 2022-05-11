@@ -30,11 +30,11 @@ p_check.style.display='none';
 })
 function  newDoc(){
     if(user.value == 0 || user.value.length < 6){
-        window.location.href="https://abdelrhmansowilam1.github.io/omar%20emad/login%20page/loginpage.html";
+//         window.location.href="https://abdelrhmansowilam1.github.io/omar%20emad/login%20page/loginpage.html";
         alert("please fill the required filled");
         
     }else if(pass.value == 0 || pass.value.length < 6){
-        window.location.href="https://abdelrhmansowilam1.github.io/omar%20emad/login%20page/loginpage.html";
+//         window.location.href="https://abdelrhmansowilam1.github.io/omar%20emad/login%20page/loginpage.html";
         alert("please fill the required filled");
     }else{
         window.location.href="https://abdelrhmansowilam1.github.io/Home/Ammar_homepage.html";
