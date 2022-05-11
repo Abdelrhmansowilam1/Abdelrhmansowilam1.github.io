@@ -27,10 +27,11 @@
 	padding: 5px;
 	height: 26px;
 	width: 50px;
-	transform: scale(1.5);
-    position: absolute;
-    top: 68px;
-    left: 11px;
+	position: fixed;
+	top:75px;
+	z-index:11;
+	left: 11px;
+	transform: scale(1);
 }
 
 
